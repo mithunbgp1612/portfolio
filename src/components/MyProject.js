@@ -3,6 +3,7 @@ import UiImg from './img/Project-Img/hospital.png';
 import FrontEndImg from './img/Project-Img/Booking-ticket.jpg';
 import BackEndImg from './img/Project-Img/book.jpg';
 import FullStackImg from './img/Project-Img/Employee.jpg';
+import CheckInCheckOut from './img/Project-Img/Check_in.png';
 export default function MyProject() {
   return (
     <div id='project' className='' >
@@ -10,6 +11,32 @@ export default function MyProject() {
         <h1 className="text-center " style={{ color: 'rgba(0,255,255)', fontFamily: 'Playfair Display, serif' }}>Our Project</h1>
         <div className="">
           <div className="row">
+           {/* Project two */}
+           <div className="col-md-4 ms-2 mt-4">
+              <div className='container'>
+                <div className='card' style={{ borderRadius: '0% 32% 0% 38% / 30% 26% 10% 30% ', background: 'rgba(0,255,255)' }}>
+                  <div className='text-center me-3'>
+                    <img src={CheckInCheckOut} className="w-100 mb-3 ms-3"
+                      style={{ borderRadius: '0% 32% 0% 38% / 30% 26% 10% 30% ', background: '#22f8d1' }} alt="Profile Picture" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-7 ms-2">
+              <div className='card mt-5' style={{ backgroundColor: '#000000' }}>
+                <h3 className='mx-5'
+                  style={{ color: '#22f8d1', fontFamily: 'Playfair Display, serif' }}>
+                  Employee Check-in, Check-out Management
+                </h3>
+                {/* <h6 className='mx-5 text-white' style={{ fontFamily: 'Playfair Display, serif' }}>I'm a
+                  <span style={{ color: '#22f8d1', fontFamily: 'Playfair Display, serif' }}> Software Developer</span></h6> */}
+                <p className="mx-5 text-white" style={{ fontFamily: 'Playfair Display, serif' }}>Employee Check-in Check-out Management System is a web application used to track employee attendance. Employees mark their check-in when they start work and check-out when they leave. The system automatically records time and calculates working hours. Admin can monitor attendance and generate reports. </p>
+                <div className='mx-5 mt-3'>
+                  <a href='#contact' type="button" class="btn btn-info">More</a>
+                </div>
+              </div>
+            </div>
+          
             {/* Project one */}
             <div className="col-md-7 ms-2">
               <div className='card mt-5' style={{ backgroundColor: '#000000' }}>
@@ -35,6 +62,7 @@ export default function MyProject() {
                 </div>
               </div>
             </div>
+            
             <div className="col-md-4 ms-2 mt-4">
               <div className='container'>
                 <div className='card' style={{ borderRadius: '0% 32% 0% 38% / 30% 26% 10% 30% ', background: 'rgba(0,255,255)' }}>
@@ -103,7 +131,7 @@ export default function MyProject() {
                       style={{ borderRadius: '0% 32% 0% 38% / 30% 26% 10% 30% ', background: '#22f8d1' }} alt="Profile Picture" />
                   </div>
                 </div>
-              </div>
+              </div> 
             </div>
             <div className="col-md-7 ms-2">
               <div className='card mt-5' style={{ backgroundColor: '#000000' }}>

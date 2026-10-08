@@ -1,7 +1,7 @@
 import React from 'react';
 import './myresume.css';
-import MyPic from './img/mypic.png';
-import MyResumeFile from './my-resume-file/resume.pdf';
+import MyPic from './img/mithun.jpg';
+import MyResumeFile from './my-resume-file/My_Resume.pdf';
 import ContactPage from './ContactMe';
 import Education from './Education';
 import Service from './Service';
@@ -21,8 +21,9 @@ export default function MyResume() {
                 <h1 className='mx-5'
                   style={{ color: '#22f8d1', fontFamily: 'Playfair Display, serif' }}>Mithun</h1>
                 <h6 className='mx-5 text-white' style={{ fontFamily: 'Playfair Display, serif' }}>I'm a
-                  <span style={{ color: '#22f8d1', fontFamily: 'Playfair Display, serif' }}> Software Developer</span></h6>
-                <p className="mx-5 text-white" style={{ fontFamily: 'Playfair Display, serif' }}>My name is Mithun Kumar. i am a fresher looking for platforms, i currently live in New Ashok Nager, Delhi. and I have complete internship full Stack java developer, and i have completed MCA from LNCT College of Bhopal. and My tech skills are Core java and Jdbc, Hibernate and spring boot, spring MVC, API, SQL and frontend skill of Html, CSS, React.js .</p>
+                  <span style={{ color: '#22f8d1', fontFamily: 'Playfair Display, serif' }}> Software Developer,</span></h6>
+                <p className="mx-5 text-white" style={{ fontFamily: 'Playfair Display, serif' }}>Immediate Joiner and a Java Backend Developer specializing in building scalable and efficient web applications using Java, Spring Boot, and RESTful APIs. I have experience in developing backend services, handling database operations, and optimizing application performance. I have a strong understanding of the Spring ecosystem, REST APIs design, and clean coding practices. I am passionate about solving real-world problems through technology and continuously improving my skills in backend development.
+                I am actively looking for new opportunities and available to join immediately.</p>
                 {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
                 <div className='mx-5'>
                   <a

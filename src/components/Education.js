@@ -35,7 +35,7 @@ export default function Education() {
       <h1 className='text-center' style={{ color: 'rgba(0,255,255)', fontFamily: 'Playfair Display, serif' }}>Education</h1>
       {/* </div> */}
       <div class="timelines text-center">
-        <div class=" cont left-cont">
+        {/* <div class=" cont left-cont">
           <img src={Logo} alt="" />
           <div class="text-box">
             <h5 class="" style={{ fontFamily: 'Playfair Display, serif' }}>High Schools</h5>
@@ -43,8 +43,8 @@ export default function Education() {
             <small class="">2012</small>
             <span class="left-cont-arrow"></span>
           </div>
-        </div>
-        <div class=" cont right-cont">
+        </div> */}
+        {/* <div class=" cont right-cont">
           <img src={Logo} alt="" />
           <div class="text-box">
             <h5 class="" style={{ fontFamily: 'Playfair Display, serif' }}>Intermediate</h5>
@@ -52,12 +52,12 @@ export default function Education() {
             <small class="">2015</small>
             <span class="right-cont-arrow"></span>
           </div>
-        </div>
+        </div> */}
         <div class=" cont left-cont">
           <img src={Logo} alt="" />
           <div class="text-box">
             <h5 class="" style={{ fontFamily: 'Playfair Display, serif' }}>Bachelore of Computer Application (BCA)</h5>
-            <p class="">Marwari Collage Bhagalpur, Bihar.</p>
+            <p class="">T.M Bhagalpur University, Bihar</p>
             <small class="">2019</small>
             <span class="left-cont-arrow"></span>
           </div>
@@ -66,7 +66,8 @@ export default function Education() {
           <img src={Logo} alt="" />
           <div class="text-box">
             <h5 class="" style={{ fontFamily: 'Playfair Display, serif' }}>Master of Computer Application (MCA)</h5>
-            <p class="">L.N.C.T Collage of Bhopal, MP</p>
+            <p class="">Rajiv Gandhi Proudyogiki Vishwavidyalaya
+            Bhopal, MP</p>
             <small class="">2022</small>
             <span class="right-cont-arrow"></span>
           </div>
@@ -75,7 +76,7 @@ export default function Education() {
           <img src={Logo} alt="" />
           <div class="text-box text-center">
             <h5 class="" style={{ fontFamily: 'Playfair Display, serif' }}>Internship</h5>
-            <p class="">JSpider Noida</p>
+            <p class="">JSpider, Noida</p>
             <p class="">Full Stack Developer</p>
             <small class="">2022-2023</small>
             <span class="left-cont-arrow"></span>
